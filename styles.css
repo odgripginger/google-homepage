@@ -1,0 +1,17 @@
+
+ul {
+    list-style-type: none;
+    height: 10px;
+    width: 20px;
+    padding: 5px 30px;
+    margin: 30px 50px; 
+}
+
+.logo img { 
+    display: block;
+     
+}
+
+li {
+    display: inline;
+}
