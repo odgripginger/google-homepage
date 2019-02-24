@@ -73,14 +73,16 @@ li {
     align-content: center;
 
 }
-.nav-bar a, .right { display: block;
+.nav-bar a, .right { 
+    display: block;
     float: right;
     margin: 0 auto;
     padding: 10px 15px;
 }
 
 a { color: black;
-    text-decoration-line: none; 
+    text-decoration-line: none;
+    height: 80px;
 }
 
 a:hover {
