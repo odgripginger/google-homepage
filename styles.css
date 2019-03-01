@@ -93,8 +93,9 @@ li {
     font-size: 15px;
     text-align: left;
     color: gray;
-    margin: 210px auto 0px auto;
-    padding: 20px 20px 0px 20px;
+    margin: 220px auto 0px auto;
+    padding: 10px 20px;
+    border-top: 1px solid rgb(220, 220, 220);
 }
 
 .footer {
@@ -102,6 +103,7 @@ li {
     font-size: small ;
     position: relative;
     bottom: 0%;
+    border-top: 1px solid rgb(220, 220, 220);
 }
 
 .language-bar {
@@ -125,14 +127,21 @@ li {
     font-family: arial,sans-serif;
     font-size: 13px;
     text-align: center;
-    align-content: center;
+    align-content: space-between;
 
 }
 .nav-bar a, .right { 
-    display: block;
     float: right;
     margin: 0 auto;
-    padding: 10px 15px;
+    padding: 10px 10px;
+}
+
+.right {
+    padding: 10px 10px;
+}
+
+.nav-bar a {
+    length: 50px;
 }
 
 a { color: black;
@@ -147,6 +156,6 @@ a:hover {
 
 .left {
     float: left;
-    padding: 20px 20px;
+    padding: 10px 20px;
     text-align: center;
 }
